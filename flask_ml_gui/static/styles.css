@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #242526;
+    position: relative;
+    overflow: hidden;
+}
+
+.result-body {
+    background-color: #242526;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.image-overlay img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.image-overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40%;
+    background: linear-gradient(to right, rgba(36, 37, 38, 0), rgba(36, 37, 38, 1));
+    z-index: 2;
+}
+.container {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+
+/*
+.progress {
+    width: 100%;
+    background-color: #848484;
+}
+.bar {
+    width: 0%;
+    height: 30px;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+*/
+
+.project_name {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 40px;
+    color: #f0f0f0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+}
+
+/* Choose file button */
+input[type=file] {
+    border: 1px solid #000000;
+    padding: 20px 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Upload button */
+input[type=submit] {
+    border: 1px solid #000000;
+    background-color: #007bff;
+    color: #fff;
+    padding: 23px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 12px;
+    border-radius: 5px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    color: #999;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.prediction-title {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.prediction_result {
+    display: flex;
+}
+
+.prediction_result h2 {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.prediction_result img {
+    justify-content: center;
+}
