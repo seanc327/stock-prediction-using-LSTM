@@ -1,4 +1,4 @@
-# ECS 171 Final Project Repo
+# Stock Prediction Using LSTM
 ## Dataset(s) used
 - Kaggle:
 [S&P500 & Nasdaq price (1986-2024)](https://www.kaggle.com/datasets/guillemservera/sp500-nasdaq-spy-qqq-ohlcv-data/data)
