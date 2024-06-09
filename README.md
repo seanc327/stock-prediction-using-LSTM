@@ -11,7 +11,7 @@
 - Find and analyze correlation with (in)famous historical events? (ex: Great depression, 2008 Lehman brothers, WWII, 1971 Intel’s single chip microprocessor invention, COVID, 9/11, airplane crashes)
 
 ## How to use
-- make a fresh virtual enviornment
+- python -m venv myenv (make a fresh virtual enviornment)
 - pip install -r requirements.txt (to download dependencies onto venv)
     - reference: https://stackoverflow.com/questions/51863155/do-we-need-to-upload-virtual-env-on-github-too
 - python -m flask run
