@@ -13,29 +13,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body class="result-body">
+<body class="result-body">  <!-- for the results page -->
     <div>
         <h1 class="prediction-title">Prediction Result</h1>
     </div>
-<!--
-    <p>The predicted classes are:</p>
-    <ul>
-        {% for prediction in predictions %}
-        <li><strong>{{ prediction }}</strong></li>
-        {% endfor %}
-    </ul>
--->
-<!---
+
     <div class="prediction-result">
         <img src="data:image/png;base64,{{ plot_data }}" alt="Prediction Plot">
     </div>
--->
-    <div class="prediction-results">
-        <img src="{{ url_for('static', filename='nasdaq.png') }}" alt="Prediction Plot">
-    </div>
 
     <div class="compare">
-        <img src="{{ url_for('static', filename='AM.png') }}" alt="Prediction Plot">
+        <img src="{{ url_for('static', filename='nasdaq.png') }}" alt="Prediction Plot">
     </div>
 
     <div class="back-home">

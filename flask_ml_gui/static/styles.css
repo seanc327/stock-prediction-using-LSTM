@@ -1,3 +1,5 @@
+/*====== index.html ======*/
+
 body {
     display: flex;
     justify-content: center;
@@ -120,7 +122,7 @@ input[type=submit] {
 }
 
 
-/* result.html */
+/* ==== result.html ==== */
 .result-body {
     background-color: #242526;
     display: flex;
