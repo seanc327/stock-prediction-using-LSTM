@@ -15,4 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     typeWriter();
+
+    document.getElementById("upload-form").addEventListener("submit", function () {
+        document.getElementById("loading").style.display = "block";
+    });
 });
