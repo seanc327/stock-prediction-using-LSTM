@@ -4,7 +4,7 @@
 [S&P500 & Nasdaq price (1986-2024)](https://www.kaggle.com/datasets/guillemservera/sp500-nasdaq-spy-qqq-ohlcv-data/data)
 
 ## Report
-S&P 500 Prediction Using LSTM.pdf
+[pdf](https://github.com/minjiyun02/stock-prediction/S&P 500 Prediction Using LSTM.pdf)
 
 ## Objectives
 - Stock price prediction: using historical data to predict future stock price
